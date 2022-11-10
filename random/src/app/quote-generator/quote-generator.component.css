@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(29, 29, 31);
+}
+.text-center{
+    height:400px;
+    max-width:450px;
+    border: 2px solid white;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top:30%;
+    left:40%;
+    border-radius:10px;
+    text-shadow: 1px 1px rgb(199, 121, 33);
+    
+}
+img{
+    border-radius:20px;
+    height:100px;
+    width:100px;
+}
+h4{
+    color: red;
+    text-shadow: 1px 1px white;
+}
+p{
+    margin-top:40px;
+    text-shadow: 1px 1px rgb(245, 189, 6);
+}
+button{
+    width: 150px;
+    height:30px;
+}
+span{
+    display: flex;
+   justify-content: center;
+  
+}

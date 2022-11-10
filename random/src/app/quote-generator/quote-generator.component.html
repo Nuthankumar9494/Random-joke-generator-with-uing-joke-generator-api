@@ -1,0 +1,10 @@
+<body class="background">
+    <span *ngIf="isloading"><app-loader></app-loader></span><br>
+    <div class="text-center" style="color: rgb(212, 212, 218);"  *ngIf="!isloading" ><h3>Random joke generate</h3><hr>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSoruns3YDKbM8Id2lyuG1SK5bV3Q-qKz-BX8G7M&s">
+     <h4 style="color:rgb(184, 56, 56);" >{{data?.joke}}</h4>
+     <button class="btn btn-outline-light mt-5" (click)="getjoke()">Generate</button><hr>
+     <p style="color:white">Subscribe for more @t Jokes.com</p>
+    </div>
+  
+</body>
